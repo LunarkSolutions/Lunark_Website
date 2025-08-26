@@ -19,8 +19,10 @@ export default function WatchEatPage() {
               WatchEat
             </h1>
             <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
-              Track your daily meals and monitor your calorie intake right from your wrist. 
-              Stay on top of your health goals with our intuitive watch app designed for seamless food tracking.
+              Take control of your health. This app tracks automatically the calories (and protein) you consume and burn, giving you a clear, daily view of your net calorie balance. Stay on track and achieve your goals.
+            </p>
+            <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
+              Seamless and intuitive, feels just like a natural conversation.
             </p>
           </div>
         </div>
