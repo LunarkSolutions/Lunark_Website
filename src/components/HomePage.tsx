@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
-              Welcome to Lunark Solutions
+              Lunark Solutions
             </h2>
             <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
               We provide innovative solutions to help your business grow and succeed in today's competitive market.
