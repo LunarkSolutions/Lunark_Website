@@ -127,8 +127,7 @@ export default function WatchEatPage() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Log Your Meals</h3>
               <p className="text-gray-600">
-                Simply input what you eat throughout the day. Search our extensive food database 
-                or scan barcodes for quick entry.
+                Simply talk about what you eat, and our app will listen and automatically log your meals. It's as easy as having a natural conversation.
               </p>
             </div>
 
@@ -138,8 +137,7 @@ export default function WatchEatPage() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Track Calories</h3>
               <p className="text-gray-600">
-                Watch as WatchEat automatically calculates your calorie intake and shows 
-                you how many calories you've gained or burned.
+                WatchEat automatically calculates your calorie and protein intake and shows you the calories you've consumed and the calories you've burned in real-time, every moment of the day.
               </p>
             </div>
 
@@ -149,8 +147,7 @@ export default function WatchEatPage() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Monitor Progress</h3>
               <p className="text-gray-600">
-                Review your daily, weekly, and monthly progress. Get insights and 
-                recommendations to help you reach your health goals.
+                Review your daily, weekly, and monthly progress.
               </p>
             </div>
           </div>
@@ -162,7 +159,7 @@ export default function WatchEatPage() {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-gray-100/50 via-transparent to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Ready to Start Your Health Journey?
+            Join Us for a real time reflection of your calorie balance
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Join thousands of users who are already tracking their meals right from their wrist 
