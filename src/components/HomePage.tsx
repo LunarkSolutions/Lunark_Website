@@ -71,12 +71,9 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900">About Lunark Solutions</h2>
+              <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
               <p className="mt-4 text-lg text-gray-600">
-                Take control of your health. This app tracks automatically the calories (and protein) you consume and burn, giving you a clear, daily view of your net calorie balance. Stay on track and achieve your goals.
-              </p>
-              <p className="mt-4 text-lg text-gray-600">
-                Seamless and intuitive, feels just like a natural conversation.
+                At Lunark Solutions, we create cutting-edge AI-based solutions across various fields, with a primary focus on healthcare. By leveraging the latest in deep learning and generative AI, we combine our extensive technical knowledge with a high degree of creativity to solve complex problems and deliver innovative, effective results.
               </p>
             </div>
             <div className="mt-8 lg:mt-0">
