@@ -1,7 +1,6 @@
 import { ArrowRight, Mail, Star } from 'lucide-react';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
-import ScrollAnimatedSection from './ScrollAnimatedSection';
 
 export default function HomePage() {
   return (
@@ -10,18 +9,10 @@ export default function HomePage() {
       <div className="pt-24" />
 
       {/* Hero Section */}
-      <section id="home" className="relative py-32 pb-64">
+      <section id="home" className="relative py-32 pb-40">
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-gray-50/50 to-gray-100" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            {/* Half Moon Animation */}
-            <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
-              <div className="relative">
-                <div className="w-32 h-32 rounded-full moon-gradient animate-spin-slow opacity-20 absolute -left-48 -top-16"></div>
-                <div className="w-24 h-24 rounded-full moon-gradient animate-spin-slow opacity-30 absolute -left-40 -top-8" style={{ animationDelay: '2s' }}></div>
-              </div>
-            </div>
-            
             <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl animate-fadeInUp">
               Lunark Solutions
             </h2>
@@ -45,36 +36,32 @@ export default function HomePage() {
       <section id="apps" className="relative py-32">
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-gray-100 via-gray-50/50 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ScrollAnimatedSection>
-            <div className="text-center">
-              <h2 className="text-3xl font-bold text-gray-900">Our Product</h2>
-              <p className="mt-4 text-lg text-gray-600">
-                Innovative applications designed to enhance your daily life
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900 animate-fadeInUp">Our Product</h2>
+            <p className="mt-4 text-lg text-gray-600 animate-fadeInUp animate-delay-200">
+              Innovative applications designed to enhance your daily life
+            </p>
+          </div>
+          <div className="mt-16 flex justify-center animate-fadeInUp animate-delay-400">
+            <Link 
+              to="/watcheat" 
+              className="bg-white border border-gray-200 p-8 rounded-lg shadow-md hover:shadow-lg transition-all transform hover:scale-105 max-w-md cursor-pointer"
+            >
+              <div className="flex items-center justify-center h-16 w-16 rounded-md bg-purple-500 text-white mx-auto">
+                <Star className="h-8 w-8" />
+              </div>
+              <h3 className="mt-6 text-2xl font-medium text-gray-900 text-center">WatchEat</h3>
+              <p className="mt-4 text-base text-gray-600 text-center">
+                Know your real-time calorie balance, every moment of every day.
               </p>
-            </div>
-          </ScrollAnimatedSection>
-          <ScrollAnimatedSection delay={200}>
-            <div className="mt-16 flex justify-center">
-              <Link 
-                to="/watcheat" 
-                className="bg-white border border-gray-200 p-8 rounded-lg shadow-md hover:shadow-lg transition-all transform hover:scale-105 max-w-md cursor-pointer"
-              >
-                <div className="flex items-center justify-center h-16 w-16 rounded-md bg-purple-500 text-white mx-auto">
-                  <Star className="h-8 w-8" />
-                </div>
-                <h3 className="mt-6 text-2xl font-medium text-gray-900 text-center">WatchEat</h3>
-                <p className="mt-4 text-base text-gray-600 text-center">
-                  Know your real-time calorie balance, every moment of every day.
-                </p>
-                <div className="mt-6 text-center">
-                  <span className="inline-flex items-center text-purple-600 font-medium">
-                    Learn More
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </span>
-                </div>
-              </Link>
-            </div>
-          </ScrollAnimatedSection>
+              <div className="mt-6 text-center">
+                <span className="inline-flex items-center text-purple-600 font-medium">
+                  Learn More
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </span>
+              </div>
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -83,26 +70,22 @@ export default function HomePage() {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-gray-50/30 to-gray-100/50" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-            <ScrollAnimatedSection animationType="slideInLeft">
-              <div>
-                <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
-                <p className="mt-4 text-lg text-gray-600">
-                  At Lunark Solutions, we create cutting-edge AI-based solutions across various fields, with a primary focus on healthcare. By leveraging the latest in deep learning and generative AI, we combine our extensive technical knowledge with a high degree of creativity to solve complex problems and deliver innovative, effective results.
-                </p>
-              </div>
-            </ScrollAnimatedSection>
-            <ScrollAnimatedSection animationType="slideInRight" delay={200}>
-              <div className="mt-8 lg:mt-0">
-                <div className="relative bg-white/70 backdrop-blur border border-gray-200 p-8 rounded-lg shadow-md">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4">Our Team</h3>
-                  <div className="space-y-3">
-                    <p className="text-gray-600">Dr. Nuriel S. Mor</p>
-                    <p className="text-gray-600">Or Fishman</p>
-                    <p className="text-gray-600">Stenly Buchman</p>
-                  </div>
+            <div className="animate-slideInLeft">
+              <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
+              <p className="mt-4 text-lg text-gray-600">
+                At Lunark Solutions, we create cutting-edge AI-based solutions across various fields, with a primary focus on healthcare. By leveraging the latest in deep learning and generative AI, we combine our extensive technical knowledge with a high degree of creativity to solve complex problems and deliver innovative, effective results.
+              </p>
+            </div>
+            <div className="mt-8 lg:mt-0 animate-slideInRight animate-delay-200">
+              <div className="relative bg-white/70 backdrop-blur border border-gray-200 p-8 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Our Team</h3>
+                <div className="space-y-3">
+                  <p className="text-gray-600">Dr. Nuriel S. Mor</p>
+                  <p className="text-gray-600">Or Fishman</p>
+                  <p className="text-gray-600">Stenly Buchman</p>
                 </div>
               </div>
-            </ScrollAnimatedSection>
+            </div>
           </div>
         </div>
       </section>
@@ -111,22 +94,18 @@ export default function HomePage() {
       <section id="contact" className="relative py-32">
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-gray-100/50 via-transparent to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ScrollAnimatedSection>
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900 animate-fadeInUp">Get In Touch</h2>
+          </div>
+          <div className="mt-16 flex justify-center animate-fadeInUp animate-delay-400">
             <div className="text-center">
-              <h2 className="text-3xl font-bold text-gray-900">Get In Touch</h2>
-            </div>
-          </ScrollAnimatedSection>
-          <ScrollAnimatedSection delay={400}>
-            <div className="mt-16 flex justify-center">
-              <div className="text-center">
-                <div className="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white mx-auto">
-                  <Mail className="h-6 w-6" />
-                </div>
-                <h3 className="mt-4 text-lg font-medium text-gray-900">Email</h3>
-                <p className="mt-2 text-base text-gray-600">WatchEat2025@gmail.com</p>
+              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white mx-auto">
+                <Mail className="h-6 w-6" />
               </div>
+              <h3 className="mt-4 text-lg font-medium text-gray-900">Email</h3>
+              <p className="mt-2 text-base text-gray-600">WatchEat2025@gmail.com</p>
             </div>
-          </ScrollAnimatedSection>
+          </div>
         </div>
       </section>
 
