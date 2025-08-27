@@ -69,4 +69,12 @@
   .animate-delay-800 {
     animation-delay: 0.8s;
   }
+  
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+  
+  .moon-gradient {
+    background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 50%, transparent 50%, transparent 100%);
+  }
 }

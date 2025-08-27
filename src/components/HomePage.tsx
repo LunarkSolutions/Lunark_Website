@@ -14,6 +14,14 @@ export default function HomePage() {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-gray-50/50 to-gray-100" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            {/* Half Moon Animation */}
+            <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+              <div className="relative">
+                <div className="w-32 h-32 rounded-full moon-gradient animate-spin-slow opacity-20 absolute -left-48 -top-16"></div>
+                <div className="w-24 h-24 rounded-full moon-gradient animate-spin-slow opacity-30 absolute -left-40 -top-8" style={{ animationDelay: '2s' }}></div>
+              </div>
+            </div>
+            
             <h2 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl animate-fadeInUp">
               Lunark Solutions
             </h2>
