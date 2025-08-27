@@ -12,16 +12,16 @@ export default function WatchEatPage() {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-gray-50/50 to-gray-100" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="flex items-center justify-center h-20 w-20 rounded-full bg-purple-500 text-white mx-auto mb-8">
+            <div className="flex items-center justify-center h-20 w-20 rounded-full bg-purple-500 text-white mx-auto mb-8 animate-fadeInUp">
               <Activity className="h-10 w-10" />
             </div>
-            <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
+            <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl animate-fadeInUp animate-delay-200">
               WatchEat
             </h1>
-            <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto animate-fadeInUp animate-delay-400">
               Take control of your health. This app tracks automatically the calories (and protein) you consume and burn, giving you a clear, daily view of your net calorie balance. Stay on track and achieve your goals.
             </p>
-            <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto animate-fadeInUp animate-delay-600">
               Seamless and intuitive, feels just like a natural conversation.
             </p>
           </div>
@@ -33,14 +33,14 @@ export default function WatchEatPage() {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-gray-100 via-gray-50/50 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900">Key Features</h2>
-            <p className="mt-4 text-lg text-gray-600">
+            <h2 className="text-3xl font-bold text-gray-900 animate-fadeInUp">Key Features</h2>
+            <p className="mt-4 text-lg text-gray-600 animate-fadeInUp animate-delay-200">
               Everything you need to maintain a healthy lifestyle
             </p>
           </div>
           
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow animate-fadeInUp animate-delay-400">
               <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white mb-4">
                 <Activity className="h-6 w-6" />
               </div>
@@ -51,7 +51,7 @@ export default function WatchEatPage() {
               </p>
             </div>
 
-            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow animate-fadeInUp animate-delay-600">
               <div className="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white mb-4">
                 <Target className="h-6 w-6" />
               </div>
@@ -62,7 +62,7 @@ export default function WatchEatPage() {
               </p>
             </div>
 
-            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow animate-fadeInUp animate-delay-800">
               <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white mb-4">
                 <TrendingUp className="h-6 w-6" />
               </div>
@@ -114,14 +114,14 @@ export default function WatchEatPage() {
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-gray-50/30 to-gray-100/50" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900">How WatchEat Works</h2>
-            <p className="mt-4 text-lg text-gray-600">
+            <h2 className="text-3xl font-bold text-gray-900 animate-fadeInUp">How WatchEat Works</h2>
+            <p className="mt-4 text-lg text-gray-600 animate-fadeInUp animate-delay-200">
               Simple steps to start tracking your nutrition
             </p>
           </div>
           
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-            <div className="text-center">
+            <div className="text-center animate-fadeInUp animate-delay-400">
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-purple-500 text-white mx-auto mb-4">
                 <span className="text-xl font-bold">1</span>
               </div>
@@ -131,7 +131,7 @@ export default function WatchEatPage() {
               </p>
             </div>
 
-            <div className="text-center">
+            <div className="text-center animate-fadeInUp animate-delay-600">
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-purple-500 text-white mx-auto mb-4">
                 <span className="text-xl font-bold">2</span>
               </div>
@@ -141,7 +141,7 @@ export default function WatchEatPage() {
               </p>
             </div>
 
-            <div className="text-center">
+            <div className="text-center animate-fadeInUp animate-delay-800">
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-purple-500 text-white mx-auto mb-4">
                 <span className="text-xl font-bold">3</span>
               </div>
@@ -158,14 +158,14 @@ export default function WatchEatPage() {
       <section className="relative py-32">
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-gray-100/50 via-transparent to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4 animate-fadeInUp">
             Join Us for a real time reflection of your calorie balance
           </h2>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto animate-fadeInUp animate-delay-200">
             Join thousands of users who are already tracking their meals right from their wrist 
             and achieving their health goals with WatchEat.
           </p>
-          <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
+          <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center animate-fadeInUp animate-delay-400">
             <button className="w-full sm:w-auto bg-purple-600 text-white px-8 py-3 rounded-md font-medium hover:bg-purple-700 transition-colors">
               Download for Apple Watch
             </button>
