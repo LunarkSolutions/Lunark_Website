@@ -22,6 +22,10 @@ function App() {
 
   return (
     <Router>
+      {/* Animated side lines */}
+      <div className="animated-line animated-line-left"></div>
+      <div className="animated-line animated-line-right"></div>
+      
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/watcheat" element={<WatchEatPage />} />

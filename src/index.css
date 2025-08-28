@@ -69,4 +69,39 @@
   .animate-delay-800 {
     animation-delay: 0.8s;
   }
+  
+  .animated-line {
+    position: fixed;
+    width: 2px;
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, #9333ea, transparent);
+    z-index: 10;
+    animation: moveLine 3s linear infinite;
+  }
+  
+  .animated-line-left {
+    left: 20px;
+  }
+  
+  .animated-line-right {
+    right: 20px;
+    animation-delay: 1.5s;
+  }
+  
+  @keyframes moveLine {
+    0% {
+      top: -100px;
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      top: 100vh;
+      opacity: 0;
+    }
+  }
 }
