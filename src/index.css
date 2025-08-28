@@ -104,4 +104,75 @@
       opacity: 0;
     }
   }
+  
+  .animated-ball {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background: #9333ea;
+    border-radius: 50%;
+    z-index: 5;
+    opacity: 0.3;
+    transition: all 0.3s ease;
+  }
+  
+  .animated-ball.light-up {
+    opacity: 1;
+    box-shadow: 0 0 20px #9333ea, 0 0 40px #9333ea, 0 0 60px #9333ea;
+    transform: scale(1.5);
+  }
+  
+  .ball-1 {
+    top: 15%;
+    left: 10%;
+    animation: lightUpCycle 4s infinite;
+  }
+  
+  .ball-2 {
+    top: 25%;
+    right: 15%;
+    animation: lightUpCycle 4s infinite 1s;
+  }
+  
+  .ball-3 {
+    top: 45%;
+    left: 8%;
+    animation: lightUpCycle 4s infinite 2s;
+  }
+  
+  .ball-4 {
+    top: 60%;
+    right: 12%;
+    animation: lightUpCycle 4s infinite 0.5s;
+  }
+  
+  .ball-5 {
+    top: 75%;
+    left: 12%;
+    animation: lightUpCycle 4s infinite 3s;
+  }
+  
+  .ball-6 {
+    top: 35%;
+    right: 8%;
+    animation: lightUpCycle 4s infinite 1.5s;
+  }
+  
+  @keyframes lightUpCycle {
+    0%, 80% {
+      opacity: 0.3;
+      box-shadow: none;
+      transform: scale(1);
+    }
+    85%, 95% {
+      opacity: 1;
+      box-shadow: 0 0 20px #9333ea, 0 0 40px #9333ea, 0 0 60px #9333ea;
+      transform: scale(1.5);
+    }
+    100% {
+      opacity: 0.3;
+      box-shadow: none;
+      transform: scale(1);
+    }
+  }
 }

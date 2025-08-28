@@ -26,6 +26,14 @@ function App() {
       <div className="animated-line animated-line-left"></div>
       <div className="animated-line animated-line-right"></div>
       
+      {/* Animated purple balls */}
+      <div className="animated-ball ball-1"></div>
+      <div className="animated-ball ball-2"></div>
+      <div className="animated-ball ball-3"></div>
+      <div className="animated-ball ball-4"></div>
+      <div className="animated-ball ball-5"></div>
+      <div className="animated-ball ball-6"></div>
+      
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/watcheat" element={<WatchEatPage />} />
