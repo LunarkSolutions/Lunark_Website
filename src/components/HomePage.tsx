@@ -1,8 +1,13 @@
 import { ArrowRight, Mail, Star } from 'lucide-react';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function HomePage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-white text-gray-900">
       <Navbar />

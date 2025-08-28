@@ -33,6 +33,15 @@ function App() {
       <div className="animated-ball ball-4"></div>
       <div className="animated-ball ball-5"></div>
       <div className="animated-ball ball-6"></div>
+      <div className="animated-ball ball-7"></div>
+      <div className="animated-ball ball-8"></div>
+      <div className="animated-ball ball-9"></div>
+      <div className="animated-ball ball-10"></div>
+      <div className="animated-ball ball-11"></div>
+      <div className="animated-ball ball-12"></div>
+      <div className="animated-ball ball-13"></div>
+      <div className="animated-ball ball-14"></div>
+      <div className="animated-ball ball-15"></div>
       
       <Routes>
         <Route path="/" element={<HomePage />} />

@@ -1,7 +1,12 @@
 import { Activity, Target, TrendingUp, Calendar, Apple, BarChart3 } from 'lucide-react';
 import Navbar from './Navbar';
+import { useEffect } from 'react';
 
 export default function WatchEatPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen bg-white text-gray-900">
       <Navbar />
