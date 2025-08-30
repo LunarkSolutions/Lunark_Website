@@ -8,7 +8,8 @@ import LoadingScreen from './components/LoadingScreen';
 function App() {
   const [loading, setLoading] = useState(true);
 
-      
+  return (
+    <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/watcheat" element={<WatchEatPage />} />
