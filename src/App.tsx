@@ -8,23 +8,6 @@ import LoadingScreen from './components/LoadingScreen';
 function App() {
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) {
-    return <LoadingScreen />;
-  }
-
-  return (
-    <Router>
-      {/* Animated side lines */}
-      <div className="animated-line animated-line-left"></div>
-      <div className="animated-line animated-line-right"></div>
       
       <Routes>
         <Route path="/" element={<HomePage />} />
