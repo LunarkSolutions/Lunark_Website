@@ -33,86 +33,11 @@ export default function WatchEatPage() {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="relative py-32">
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-gray-100 via-gray-50/50 to-transparent" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-900 animate-fadeInUp">Key Features</h2>
-            <p className="mt-4 text-lg text-gray-600 animate-fadeInUp animate-delay-200">
-              Everything you need to maintain a healthy lifestyle
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow animate-fadeInUp animate-delay-400">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white mb-4">
-                <Activity className="h-6 w-6" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Daily Food Tracking</h3>
-              <p className="text-gray-600">
-                Log everything you eat throughout the day with our easy-to-use interface. 
-                Build healthy eating habits one meal at a time.
-              </p>
-            </div>
 
-            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow animate-fadeInUp animate-delay-600">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white mb-4">
-                <Target className="h-6 w-6" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Calorie Monitoring</h3>
-              <p className="text-gray-600">
-                Track your calorie intake and expenditure. See exactly how many calories 
-                you've gained or lost throughout the day.
-              </p>
-            </div>
 
-            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow animate-fadeInUp animate-delay-800">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white mb-4">
-                <TrendingUp className="h-6 w-6" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Progress Tracking</h3>
-              <p className="text-gray-600">
-                Monitor your progress over time with detailed charts and insights. 
-                See your calorie trends and eating patterns.
-              </p>
-            </div>
 
-            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-orange-500 text-white mb-4">
-                <Calendar className="h-6 w-6" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Meal Planning</h3>
-              <p className="text-gray-600">
-                Plan your meals in advance and stay consistent with your dietary goals. 
-                Never miss a meal or exceed your calorie targets.
-              </p>
-            </div>
 
-            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white mb-4">
-                <Apple className="h-6 w-6" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Food Database</h3>
-              <p className="text-gray-600">
-                Access a comprehensive database of foods with accurate nutritional information. 
-                Find any food item quickly and easily.
-              </p>
-            </div>
 
-            <div className="bg-white border border-gray-200 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white mb-4">
-                <BarChart3 className="h-6 w-6" />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Detailed Analytics</h3>
-              <p className="text-gray-600">
-                Get detailed insights into your eating habits with comprehensive analytics 
-                and personalized recommendations.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* How It Works Section */}
       <section className="relative py-32">
