@@ -1,4 +1,5 @@
 import { Activity, Target, TrendingUp, Calendar, Apple, BarChart3 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import { useEffect } from 'react';
 
