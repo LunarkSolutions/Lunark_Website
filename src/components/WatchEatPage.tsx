@@ -14,7 +14,7 @@ export default function WatchEatPage() {
 
       {/* Hero Section */}
       <section className="relative py-32 pb-40">
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-gray-50/50 to-gray-100" />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-gray-50/30 to-gray-100/50" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex items-center justify-center h-20 w-20 rounded-full bg-purple-500 text-white mx-auto mb-8 animate-fadeInUp">
@@ -102,6 +102,40 @@ export default function WatchEatPage() {
             <button className="w-full sm:w-auto bg-purple-600 text-white px-8 py-3 rounded-md font-medium hover:bg-purple-700 transition-colors">
               Download for Wear OS
             </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Privacy Notice Section */}
+      <section className="relative py-16">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-gray-100/30 via-gray-50/20 to-transparent" />
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white/70 backdrop-blur border border-gray-200 p-8 rounded-lg shadow-md animate-fadeInUp">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Privacy Notice</h2>
+            <div className="space-y-4 text-gray-600">
+              <p>
+                At WatchEat, we take your privacy seriously. Your health data is personal and sensitive, 
+                and we are committed to protecting it with the highest standards of security and privacy.
+              </p>
+              <p>
+                <strong>Data Collection:</strong> We only collect the information necessary to provide 
+                you with accurate calorie tracking and nutritional insights. This includes meal logs, 
+                activity data, and basic profile information.
+              </p>
+              <p>
+                <strong>Data Security:</strong> All your data is encrypted both in transit and at rest. 
+                We use industry-standard security measures to protect your information from unauthorized access.
+              </p>
+              <p>
+                <strong>Data Usage:</strong> Your personal data is never shared with third parties for 
+                marketing purposes. We use your data solely to improve your experience and provide 
+                personalized health insights.
+              </p>
+              <p>
+                <strong>Your Control:</strong> You have full control over your data. You can view, 
+                export, or delete your information at any time through the app settings.
+              </p>
+            </div>
           </div>
         </div>
       </section>
