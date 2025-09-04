@@ -125,7 +125,6 @@ export default function PrivacyPage() {
                   <p className="font-medium text-gray-900 mt-4">
                     That's it — watcheat only saves what you tell it you ate.
                   </p>
-                  </p>
                 </div>
               </div>
             </div>
