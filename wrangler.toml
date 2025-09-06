@@ -1,0 +1,5 @@
+name = "lunark-website"
+compatibility_date = "2025-01-09"
+
+[assets]
+directory = "./dist"
