@@ -1,4 +1,5 @@
 import { Activity, Target, TrendingUp, Calendar, Apple, BarChart3 } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import { useEffect } from 'react';
@@ -100,6 +101,50 @@ export default function WatchEatPage() {
             <button className="w-full sm:w-auto bg-purple-600 text-white px-8 py-3 rounded-md font-medium hover:bg-purple-700 transition-colors">
               Download for Wear OS
             </button>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="relative py-32 overflow-hidden">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-gray-50/30 to-gray-100/50" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+            <div className="animate-slideInLeft">
+              <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
+              <p className="mt-4 text-lg text-gray-600">
+                At Lunark Solutions, we create cutting-edge AI-based solutions across various fields, with a primary focus on healthcare. By leveraging the latest in deep learning and generative AI, we combine our extensive technical knowledge with a high degree of creativity to solve complex problems and deliver innovative, effective results.
+              </p>
+            </div>
+            <div className="mt-8 lg:mt-0 animate-slideInRight animate-delay-200">
+              <div className="relative bg-white/70 backdrop-blur border border-gray-200 p-8 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Our Team</h3>
+                <div className="space-y-3">
+                  <p className="text-gray-600">Dr. Nuriel S. Mor</p>
+                  <p className="text-gray-600">Or Fishman</p>
+                  <p className="text-gray-600">Stenly Buchman</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="relative py-32">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-gray-100/50 via-transparent to-transparent" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-gray-900 animate-fadeInUp">Get In Touch</h2>
+          </div>
+          <div className="mt-16 flex justify-center animate-fadeInUp animate-delay-400">
+            <div className="text-center">
+              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white mx-auto">
+                <Mail className="h-6 w-6" />
+              </div>
+              <h3 className="mt-4 text-lg font-medium text-gray-900">Email</h3>
+              <p className="mt-2 text-base text-gray-600">WatchEat2025@gmail.com</p>
+            </div>
           </div>
         </div>
       </section>

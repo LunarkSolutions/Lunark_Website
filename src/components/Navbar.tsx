@@ -10,11 +10,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between gap-4">
           <Link to="/" className="flex items-center gap-2">
             <span className="inline-block h-6 w-6 rounded-md bg-gradient-to-br from-purple-400 to-fuchsia-500 shadow" />
-            <span className="font-semibold text-gray-900">Lunark</span>
+            <span className="font-semibold text-gray-900">WatchEat</span>
           </Link>
           <div className="hidden md:flex items-center space-x-6">
             <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">About Us</a>
-            <Link to="/watcheat" className="text-gray-700 hover:text-purple-600 transition-colors">Our Apps</Link>
             <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">Get In Touch</a>
           </div>
           <a
