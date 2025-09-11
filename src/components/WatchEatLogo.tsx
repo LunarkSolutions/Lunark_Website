@@ -1,17 +1,15 @@
-import React from 'react';
+// src/components/WatchEatLogo.tsx
+import logoUrl from '@/assets/image.png; // adjust path alias as needed
 
-type Props = { className?: string };
-
-export default function WatchEatLogo({ className = "" }: Props) {
+export default function WatchEatLogo({ className = '' }) {
   return (
     <img
-      src="src/assets/image.png"
+      src={logoUrl}
       alt="WatchEat logo"
-      className={`block select-none pointer-events-none mix-blend-normal filter-none ${className}`}
+      className={`block pointer-events-none select-none ${className}`}
       draggable={false}
-      style={{
-        imageRendering: "auto",
-      }}
     />
   );
+}
+
 }
