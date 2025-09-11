@@ -9,7 +9,7 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-between gap-4">
           <Link to="/" className="flex items-center gap-2">
-            <span className="inline-block h-6 w-6 rounded-md bg-gradient-to-br from-purple-400 to-fuchsia-500 shadow" />
+            <img src="/watcheat-logo.png" alt="WatchEat" className="h-8 w-8" />
             <span className="font-semibold text-gray-900">WatchEat</span>
           </Link>
           <div className="hidden md:flex items-center space-x-6">

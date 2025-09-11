@@ -18,8 +18,8 @@ export default function WatchEatPage() {
       <section className="py-32 pb-40">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="flex items-center justify-center h-20 w-20 rounded-full bg-purple-500 text-white mx-auto mb-8 animate-fadeInUp">
-              <Activity className="h-10 w-10" />
+            <div className="flex items-center justify-center mx-auto mb-8 animate-fadeInUp">
+              <img src="/watcheat-logo.png" alt="WatchEat" className="h-20 w-20" />
             </div>
             <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl animate-fadeInUp animate-delay-200">
               WatchEat
