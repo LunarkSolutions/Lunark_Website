@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import WatchEatLogo from './WatchEatLogo';
 
 export default function Navbar() {
   return (
@@ -9,7 +10,7 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-between gap-4">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/watcheat-logo.png" alt="WatchEat" className="h-8 w-8" />
+            <WatchEatLogo className="h-8 w-8" />
             <span className="font-semibold text-gray-900">WatchEat</span>
           </Link>
           <div className="hidden md:flex items-center space-x-6">
