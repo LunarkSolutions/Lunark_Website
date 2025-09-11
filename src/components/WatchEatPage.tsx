@@ -20,7 +20,7 @@ export default function WatchEatPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex items-center justify-center mx-auto mb-8 animate-fadeInUp">
-              <WatchEatLogo className="h-20 w-20" />
+              <WatchEatLogo className="h-20 w-20 object-contain" />
             </div>
             <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl animate-fadeInUp animate-delay-200">
               WatchEat
