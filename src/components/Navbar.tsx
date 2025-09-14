@@ -3,11 +3,9 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
   return (
     <div className="fixed inset-x-0 top-4 z-50 flex justify-center">
-      {/* Animated purple circles */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="animate-circle-1 absolute w-3 h-3 bg-purple-600 rounded-full opacity-60"></div>
-        <div className="animate-circle-2 absolute w-2 h-2 bg-purple-600 rounded-full opacity-40"></div>
-        <div className="animate-circle-3 absolute w-4 h-4 bg-purple-600 rounded-full opacity-30"></div>
+      {/* Simple rotating purple animation */}
+      <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
+        <div className="animate-spin w-8 h-8 border-2 border-transparent border-t-purple-600 rounded-full opacity-30"></div>
       </div>
       <nav
         className="w-[min(1200px,95%)] rounded-full border border-gray-200 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/90 shadow-lg px-4 sm:px-6 py-3 text-sm"
