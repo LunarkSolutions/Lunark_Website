@@ -91,8 +91,7 @@ export default function WatchEatPage() {
             Join Us for a real time reflection of your calorie balance
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto animate-fadeInUp animate-delay-200">
-            Join thousands of users who are already tracking their meals right from their wrist 
-            and achieving their health goals with WatchEat.
+            Take control of your nutrition—track meals straight from your wrist and achieve your health goals with WatchEat.
           </p>
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center animate-fadeInUp animate-delay-400">
             <button className="w-full sm:w-auto bg-purple-600 text-white px-8 py-3 rounded-md font-medium hover:bg-purple-700 transition-colors">

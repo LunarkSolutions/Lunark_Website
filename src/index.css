@@ -159,4 +159,100 @@
     animation: lightUpCycle 4s infinite 2.2s;
   }
 
+  .animate-circle-1 {
+    animation: circleMove1 8s linear infinite;
+  }
+  
+  .animate-circle-2 {
+    animation: circleMove2 6s linear infinite;
+  }
+  
+  .animate-circle-3 {
+    animation: circleMove3 10s linear infinite;
+  }
+  
+  @keyframes circleMove1 {
+    0% {
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    25% {
+      left: 90%;
+      top: 20%;
+      transform: translateY(-50%);
+    }
+    50% {
+      left: 90%;
+      top: 80%;
+      transform: translateY(-50%);
+    }
+    75% {
+      left: 10%;
+      top: 80%;
+      transform: translateY(-50%);
+    }
+    100% {
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  
+  @keyframes circleMove2 {
+    0% {
+      left: 20%;
+      top: 30%;
+      transform: translateY(-50%);
+    }
+    33% {
+      left: 80%;
+      top: 30%;
+      transform: translateY(-50%);
+    }
+    66% {
+      left: 50%;
+      top: 70%;
+      transform: translateY(-50%);
+    }
+    100% {
+      left: 20%;
+      top: 30%;
+      transform: translateY(-50%);
+    }
+  }
+  
+  @keyframes circleMove3 {
+    0% {
+      left: 70%;
+      top: 60%;
+      transform: translateY(-50%);
+    }
+    20% {
+      left: 30%;
+      top: 20%;
+      transform: translateY(-50%);
+    }
+    40% {
+      left: 80%;
+      top: 40%;
+      transform: translateY(-50%);
+    }
+    60% {
+      left: 20%;
+      top: 70%;
+      transform: translateY(-50%);
+    }
+    80% {
+      left: 90%;
+      top: 80%;
+      transform: translateY(-50%);
+    }
+    100% {
+      left: 70%;
+      top: 60%;
+      transform: translateY(-50%);
+    }
+  }
+
 }
