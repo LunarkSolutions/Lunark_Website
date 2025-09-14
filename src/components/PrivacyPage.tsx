@@ -136,9 +136,9 @@ export default function PrivacyPage() {
       <footer className="bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
-            <h3 className="text-lg font-semibold text-gray-900">Lunark Solutions</h3>
+            <h3 className="text-lg font-semibold text-gray-900">WatchEat</h3>
             <p className="mt-2 text-gray-600">
-              © 2025 Lunark Solutions. All rights reserved.
+              © 2025 WatchEat. All rights reserved.
             </p>
           </div>
         </div>

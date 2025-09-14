@@ -113,7 +113,7 @@ export default function WatchEatPage() {
             <div className="animate-slideInLeft">
               <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
               <p className="mt-4 text-lg text-gray-600">
-                At Lunark Solutions, we create cutting-edge AI-based solutions across various fields, with a primary focus on healthcare. By leveraging the latest in deep learning and generative AI, we combine our extensive technical knowledge with a high degree of creativity to solve complex problems and deliver innovative, effective results.
+                We create cutting-edge AI-based solutions across various fields, with a primary focus on healthcare. By leveraging the latest in deep learning and generative AI, we combine our extensive technical knowledge with a high degree of creativity to solve complex problems and deliver innovative, effective results.
               </p>
             </div>
             <div className="mt-8 lg:mt-0 animate-slideInRight animate-delay-200">
@@ -165,9 +165,9 @@ export default function WatchEatPage() {
       <footer className="bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
-            <h3 className="text-lg font-semibold text-gray-900">Lunark Solutions</h3>
+            <h3 className="text-lg font-semibold text-gray-900">WatchEat</h3>
             <p className="mt-2 text-gray-600">
-              © 2025 Lunark Solutions. All rights reserved.
+              © 2025 WatchEat. All rights reserved.
             </p>
           </div>
         </div>
