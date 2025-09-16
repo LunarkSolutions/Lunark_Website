@@ -99,7 +99,7 @@ export default function PrivacyPage() {
                 <div>
                   <h2 className="text-2xl font-semibold text-gray-900 mb-3">7) Children's privacy</h2>
                   <p>
-                    watcheat is not directed to children under 13 (or the minimum age in your jurisdiction). We do not knowingly collect or store information from children. If you believe a child has used the app to submit Food Entries, please contact us and we will delete that data.
+                    watcheat is not directed to children under 13 (or the minimum age in your jurisdiction). We do not knowingly collect or store information from children.
                   </p>
                 </div>
 
