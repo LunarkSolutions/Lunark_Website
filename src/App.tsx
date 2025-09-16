@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WatchEatPage from './components/WatchEatPage';
 import PrivacyPage from './components/PrivacyPage';
+import SettingsPage from './components/SettingsPage';
 import LoadingScreen from './components/LoadingScreen';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<WatchEatPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="/settings" element={<SettingsPage />} />
       </Routes>
     </Router>
   );
