@@ -1,6 +1,5 @@
-name = "we-watcheat2025"
-main = "worker.js"
-compatibility_date = "2024-09-16"
+name = "k"
+compatibility_date = "2025-01-09"
 
-# Bind your static build as ASSETS
-assets = { directory = "./dist", binding = "ASSETS" }
+[assets]
+directory = "./dist"

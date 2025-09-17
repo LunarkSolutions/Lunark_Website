@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { Settings } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -20,10 +19,6 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-6">
             <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">About Us</a>
             <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">Get In Touch</a>
-            <Link to="/settings" className="text-gray-700 hover:text-purple-600 transition-colors flex items-center gap-1">
-              <Settings className="h-4 w-4" />
-              Settings
-            </Link>
           </div>
           <a
             href="#contact"

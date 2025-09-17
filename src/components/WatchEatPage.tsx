@@ -1,7 +1,8 @@
-import { useEffect } from 'react';
-import { Activity, Mail } from 'lucide-react';
+import { Activity, Target, TrendingUp, Calendar, Apple, BarChart3 } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
+import { useEffect } from 'react';
 
 export default function WatchEatPage() {
   useEffect(() => {
@@ -33,6 +34,12 @@ export default function WatchEatPage() {
         </div>
       </section>
 
+
+
+
+
+
+
       {/* How It Works Section */}
       <section className="py-32">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -42,7 +49,7 @@ export default function WatchEatPage() {
               Simple steps to start tracking your nutrition
             </p>
           </div>
-
+          
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             <div className="text-center animate-fadeInUp animate-delay-400">
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-purple-500 text-white mx-auto mb-4">
@@ -141,11 +148,11 @@ export default function WatchEatPage() {
         </div>
       </section>
 
-      {/* CTA to Privacy Section (in-page scroll) */}
+      {/* Privacy Notice Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Link
-            to="/privacy"
+          <Link 
+            to="/privacy" 
             className="inline-flex items-center px-6 py-3 border border-purple-600 text-purple-600 rounded-md font-medium hover:bg-purple-50 transition-colors animate-fadeInUp"
           >
             Privacy Notice
@@ -158,7 +165,9 @@ export default function WatchEatPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
             <h3 className="text-lg font-semibold text-gray-900">WatchEat</h3>
-            <p className="mt-2 text-gray-600">© 2025 WatchEat. All rights reserved.</p>
+            <p className="mt-2 text-gray-600">
+              © 2025 WatchEat. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
