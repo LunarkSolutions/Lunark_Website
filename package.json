@@ -4,7 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "lint": "",
+    "preview": "pnpm run build && vite preview",
+    "deploy": "pnpm exec wrangler deploy",
+    "ct-typegen": "wrangler types"
   },
   "dependencies": {
     "react": "^18.3.1",
