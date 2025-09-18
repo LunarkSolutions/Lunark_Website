@@ -12,8 +12,10 @@
     "ct-typegen": "wrangler types"
   },
   "dependencies": {
+    "lucide-react": "^0.544.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.9.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
