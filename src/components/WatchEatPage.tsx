@@ -151,12 +151,14 @@ export default function WatchEatPage() {
       {/* Privacy Notice Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Link 
-            to="/privacy" 
+          <a 
+            href="https://sites.google.com/taded.org.il/watcheat?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-purple-600 text-purple-600 rounded-md font-medium hover:bg-purple-50 transition-colors animate-fadeInUp"
           >
             Privacy Notice
-          </Link>
+          </a>
         </div>
       </section>
 
