@@ -10,7 +10,6 @@ export default function WatchEatPage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white text-gray-900">
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors">
       <Navbar />
       <div className="pt-24" />
@@ -56,7 +55,6 @@ export default function WatchEatPage() {
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-purple-500 text-white mx-auto mb-4">
                 <span className="text-xl font-bold">1</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Log Your Meals</h3>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Log Your Meals</h3>
               <p className="text-gray-600 dark:text-gray-300">
                 Simply talk about what you eat, and our app will listen and automatically log your meals. It's as easy as having a natural conversation.
@@ -67,7 +65,6 @@ export default function WatchEatPage() {
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-purple-500 text-white mx-auto mb-4">
                 <span className="text-xl font-bold">2</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Track Calories</h3>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Track Calories</h3>
               <p className="text-gray-600 dark:text-gray-300">
                 WatchEat automatically calculates your calorie and protein intake and shows you the calories you've consumed and the calories you've burned in real-time, every moment of the day.
@@ -78,7 +75,6 @@ export default function WatchEatPage() {
               <div className="flex items-center justify-center h-16 w-16 rounded-full bg-purple-500 text-white mx-auto mb-4">
                 <span className="text-xl font-bold">3</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Monitor Progress</h3>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Monitor Progress</h3>
               <p className="text-gray-600 dark:text-gray-300">
                 Review your daily, weekly, and monthly progress.
@@ -145,7 +141,6 @@ export default function WatchEatPage() {
               <div className="flex items-center justify-center h-12 w-12 rounded-md bg-purple-500 text-white mx-auto">
                 <Mail className="h-6 w-6" />
               </div>
-              <h3 className="mt-4 text-lg font-medium text-gray-900">Email</h3>
               <h3 className="mt-4 text-lg font-medium text-gray-900 dark:text-white">Email</h3>
               <p className="mt-2 text-base text-gray-600 dark:text-gray-300">WatchEat2025@gmail.com</p>
             </div>
@@ -172,7 +167,6 @@ export default function WatchEatPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">WatchEat</h3>
-            <p className="mt-2 text-gray-600">
             <p className="mt-2 text-gray-600 dark:text-gray-300">
               © 2025 WatchEat. All rights reserved.
             </p>
@@ -181,7 +175,3 @@ export default function WatchEatPage() {
       </footer>
     </div>
   );
-}
-
-  )
-}

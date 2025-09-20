@@ -138,7 +138,6 @@ export default function PrivacyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">WatchEat</h3>
-            <p className="mt-2 text-gray-600">
             <p className="mt-2 text-gray-600 dark:text-gray-300">
               © 2025 WatchEat. All rights reserved.
             </p>
@@ -147,6 +146,3 @@ export default function PrivacyPage() {
       </footer>
     </div>
   );
-}
-  )
-}
