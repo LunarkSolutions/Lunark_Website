@@ -122,7 +122,6 @@ export default function PrivacyPage() {
                   <p>
                     If you have questions or requests about this Privacy Notice or your data, email: watcheat2025@gmail.com.
                   </p>
-                  <p className="font-medium text-gray-900 mt-4">
                   <p className="font-medium text-gray-900 dark:text-white mt-4">
                     That's it — watcheat only saves what you tell it you ate.
                   </p>
