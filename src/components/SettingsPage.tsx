@@ -30,8 +30,8 @@ export default function SettingsPage() {
                 {theme === 'light' ? <Sun className="h-6 w-6" /> : <Moon className="h-6 w-6" />}
                 Theme
               </h2>
+            </div>
           </div>
-        </div>
         </div>
       </section>
 
@@ -48,8 +48,4 @@ export default function SettingsPage() {
       </footer>
     </div>
   );
-}
-  )
-}
-  )
 }
