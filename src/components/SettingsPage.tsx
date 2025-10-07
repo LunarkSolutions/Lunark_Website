@@ -1,10 +1,13 @@
 import { useEffect } from 'react';
-import { Moon, Sun, Shield, Mail } from 'lucide-react';
+import { useState } from 'react';
+import { Moon, Sun, Shield, Mail, ChevronDown, ChevronRight } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import Navbar from './Navbar';
 
 export default function SettingsPage() {
   const { theme, toggleTheme } = useTheme();
+  const [themeExpanded, setThemeExpanded] = useState(false);
+  const [privacyExpanded, setPrivacyExpanded] = useState(false);
 
   useEffect(() => {
     window.scrollTo(0, 0);
