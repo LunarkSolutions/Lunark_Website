@@ -32,6 +32,7 @@ export default function SettingsPage() {
               </h2>
           </div>
         </div>
+        </div>
       </section>
 
       {/* Footer */}
